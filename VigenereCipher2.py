@@ -6,18 +6,6 @@ class VigenereCipher:
     def __str__(self):
         return self.alphabet.encode('utf-8')
 
-    #===== Setters =====
-    def setKey(self, key):
-        self.key = key.decode('utf-8')
-    def setAlphabet(self, abc):
-        self.alphabet = abc.decode('utf-8')
-
-    #===== Getters =====
-    def getKey(self):
-        return self.key.encode('utf-8')
-    def getAlphabet(self):
-        return alphabet.encode('utf-8')
-
     #===== Methods =====
     def encode(self, str):
         str = str.decode('utf-8')
