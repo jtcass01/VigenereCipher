@@ -6,18 +6,6 @@ class VigenereCipher:
     def __str__(self):
         return self.alphabet
 
-    #===== Setters =====
-    def setKey(self, key):
-        self.key = key
-    def setAlphabet(self, abc):
-        self.alphabet = abc
-
-    #===== Getters =====
-    def getKey(self):
-        return self.key
-    def getAlphabet(self):
-        return alphabet
-
     #===== Methods =====
     def encode(self, str):
         result = ""
